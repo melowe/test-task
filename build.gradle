@@ -19,6 +19,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
     compile 'com.sbuslab:utils:1.2.+'
     compile 'com.sbuslab:akka-http-tools:1.1.+'
+
+    runtime 'org.glassfish:jakarta.json:2.0.1'
+    compile 'jakarta.json:jakarta.json-api:2.0.1'
 }
 
 test {

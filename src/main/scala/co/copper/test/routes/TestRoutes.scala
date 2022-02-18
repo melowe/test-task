@@ -21,7 +21,7 @@ class TestRoutes(
     pathEnd {
       post {
         complete {
-          deribitService.returnOk
+          deribitJavaService.queryAndSave().toScala;
         }
       } ~
       get {
